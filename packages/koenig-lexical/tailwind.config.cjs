@@ -10,7 +10,8 @@ module.exports = {
     darkMode: 'class',
     theme: {
         colors: {
-            accent: 'var(--kg-accent-color, #ff0095)',
+            // replaced accent #ff0095 with #b4682c
+            accent: 'var(--kg-accent-color, #b4682c)',
             transparent: 'transparent',
             current: 'currentColor',
             white: '#FFF',
