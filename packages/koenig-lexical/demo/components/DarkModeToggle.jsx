@@ -2,7 +2,7 @@
 const DarkModeToggle = ({darkMode, toggleDarkMode}) => {
     return (
         <>
-            <button className="absolute right-20 top-4 z-20 block cursor-pointer rounded bg-white px-2 py-1 font-mono text-sm tracking-tight text-grey-600 dark:bg-transparent" type="button" onClick={toggleDarkMode}>
+            <button className="absolute right-20 top-4 z-20 block cursor-pointer rounded bg-luci px-2 py-1 font-mono text-sm tracking-tight text-lucigray dark:text-lucigray dark:bg-luci" type="button" onClick={toggleDarkMode}>
                 {darkMode ? 'light mode' : 'dark mode'}
             </button>
         </>
@@ -10,8 +10,6 @@ const DarkModeToggle = ({darkMode, toggleDarkMode}) => {
 };
 
 export default DarkModeToggle;
-
-
 
 // Original
 // const DarkModeToggle = ({darkMode, toggleDarkMode}) => {

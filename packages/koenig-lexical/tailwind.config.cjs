@@ -10,8 +10,12 @@ module.exports = {
     darkMode: 'class',
     theme: {
         colors: {
-            // replaced accent #ff0095 with #b4682c
-            accent: 'var(--kg-accent-color, #b4682c)',
+            // added Luci-themed colors
+            luci: '#B4682C',
+            lucidark: '#A3603F',
+            lucigray: '#F8F4F0',
+            
+            accent: 'var(--kg-accent-color, #ff0095)',
             transparent: 'transparent',
             current: 'currentColor',
             white: '#FFF',
@@ -79,7 +83,7 @@ module.exports = {
         fontFamily: {
             sans: 'Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif',
             serif: 'Georgia, Times, serif',
-            mono: 'Consolas, Liberation Mono, Menlo, Courier, monospace'
+            mono: 'Roboto Mono, Consolas, Liberation Mono, Menlo, Courier, monospace'
         },
         boxShadow: {
             DEFAULT: '0 0 1px rgba(0,0,0,.05), 0 5px 18px rgba(0,0,0,.08)',

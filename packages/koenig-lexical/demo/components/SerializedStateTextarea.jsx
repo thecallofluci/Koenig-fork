@@ -30,3 +30,5 @@ const SerializedStateTextarea = ({isOpen}) => {
 };
 
 export default SerializedStateTextarea;
+
+// original <div className="h-full w-full resize-none !overflow-auto bg-black !p-4 font-mono text-sm text-grey-300 selection:bg-grey-800">
