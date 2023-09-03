@@ -15,7 +15,7 @@ const Watermark = ({editorType}) => {
         return (
             <a className="absolute bottom-4 left-6 z-20 flex items-center rounded bg-white py-1 pl-1 pr-2 font-mono text-sm tracking-tight text-black" href="https://github.com/TryGhost/Koenig/tree/main/packages/koenig-lexical" rel="nofollow ugc noopener noreferrer" target="_blank">
                 <GhostFavicon className="mr-2 h-6 w-6" />
-                <span className="pr-1 font-bold tracking-wide">Koenig</span>
+                <span className="pr-1 font-bold tracking-wide">Call Of Luci</span>
             editor
             </a>
         );

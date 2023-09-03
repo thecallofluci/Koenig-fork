@@ -3,7 +3,7 @@ const DarkModeToggle = ({darkMode, toggleDarkMode}) => {
     return (
         <>
             <button className="absolute right-20 top-4 z-20 block cursor-pointer rounded bg-white px-2 py-1 font-mono text-sm tracking-tight text-grey-600 dark:bg-transparent" type="button" onClick={toggleDarkMode}>
-                {darkMode ? 'dark' : 'light'}
+                {darkMode ? 'light mode' : 'dark mode'}
             </button>
         </>
     );
