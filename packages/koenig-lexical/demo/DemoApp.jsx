@@ -133,7 +133,7 @@ function DemoComposer({editorType, isMultiplayer, setWordCount}) {
         return contentParam ? decodeURIComponent(contentParam) : defaultContent;
     }, [isMultiplayer, contentParam, defaultContent]);
 
-    const [title, setTitle] = useState(initialContent ? 'Meet the Koenig editor.' : '');
+    const [title, setTitle] = useState(initialContent ? 'Welcome, Player.' : '');
     const [editorAPI, setEditorAPI] = useState(null);
     const titleRef = React.useRef(null);
     const containerRef = React.useRef(null);

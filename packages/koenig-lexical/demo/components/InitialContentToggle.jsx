@@ -12,7 +12,7 @@ const InitialContentToggle = ({defaultContent, setTitle, searchParams, setSearch
         if (!isOn) {
             const editorState = editor.parseEditorState(defaultContent);
             editor.setEditorState(editorState);
-            setTitle('Meet the Koenig editor.');
+            setTitle('Welcome, Player.');
             searchParams.delete('content');
             setSearchParams(searchParams);
         }

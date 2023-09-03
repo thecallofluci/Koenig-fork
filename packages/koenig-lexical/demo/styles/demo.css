@@ -10,6 +10,7 @@
     --grey-500: #AEB7C1;
     --grey-900: #394047;
     --black: #15171A;
+    --luci: #161b22;
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -48,7 +49,7 @@ body,
 @media (prefers-color-scheme: light) {
     .w-tc-editor {
         --color-fg-default: #c9d1d9;
-        --color-canvas-subtle: #161b22;
+        --color-canvas-subtle: #B4682C;
         --color-prettylights-syntax-comment: #8b949e;
         --color-prettylights-syntax-entity-tag: #7ee787;
         --color-prettylights-syntax-entity: #d2a8ff;
